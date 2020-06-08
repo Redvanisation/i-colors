@@ -6,24 +6,39 @@ body {
   box-sizing: border-box;
 }
 
+.main-title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
 .app {
-  width: 60%;
   margin: 0 auto;
-  
-  // display: flex;
-  // justify-content: center;
+  display: flex;
+  justify-content: center;
+  transition: all .3s;
 }
 
 .squares-container {
-  display: flex;
-  border: 1px solid red;
-  justify-content: center;
-}
-
-.square {
-  margin: 1rem .5rem auto;
+  background-color: rgb(44, 44, 44);
+  padding: 1rem;
+  transition: all .3s;
 }
 
 .color {
+  border-radius: 4px;
   height: 10rem;
+  transition: all .3s;
+}
+
+.control-container {
+  background-color: rgb(12, 12, 12);
+  width: 30%;
+  padding: 1rem 1rem 0;
+  color: black !important;
+}
+
+h2, h3 {
+  color: #fff !important;
 }
