@@ -1,0 +1,29 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 60%;
+  margin: 0 auto;
+  
+  // display: flex;
+  // justify-content: center;
+}
+
+.squares-container {
+  display: flex;
+  border: 1px solid red;
+  justify-content: center;
+}
+
+.square {
+  margin: 1rem .5rem auto;
+}
+
+.color {
+  height: 10rem;
+}
